@@ -34,27 +34,37 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    - Semantic HTML is HTML with meaning. It is HTML that provides accessibility. Examples of it would be <section> and <a> tags. <div> is not semantic.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    - Display block will fill up the entire space it is given horizontally while Inline will only fill up as much space as is needed to display the data it is given.
 
 3. What are the 4 areas of the box model?
 
+    -in the center is the content which is surrounded by the blank space around it called padding. The padding is then surrounded by a border and after the border comes the blank space called margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    - it works on the cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    -  it is valuable because it allows each member of the team to work on a different branch of the master repo without altering the master repo itself. It saves all changes when those changes are commited and once one of them is done they are able to push those changes so the other team member can access the changes and review them to see if they should be pulled into and merged with the master repo.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
