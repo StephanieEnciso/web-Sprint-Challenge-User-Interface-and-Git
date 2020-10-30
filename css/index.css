@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /*border: 1px solid red;*/
 }
 
 html, body {
@@ -200,3 +201,27 @@ header .img {
     background-image: url();
     margin: 3% 0 2% 0;
 }
+
+/* About Page Styles */
+/* Top Section Styles */
+.about-page .topSec {
+    border-bottom: 1px dashed black;
+}
+.about-page .topSec h2,p {
+   margin: 0 1% 2% 2%;
+}
+/* Middle Section (Gallery) */
+.about-page .middle {
+    display: flex;
+    border: 1px solid rgb(21, 0, 128);
+    margin: 0 0 2% 2%;
+    flex-wrap: wrap;
+}
+.about-page .middle .topImgs {
+    display: flex;
+    
+}
+.about-page .middle .bottomImgs {
+    display: flex;
+}
+
