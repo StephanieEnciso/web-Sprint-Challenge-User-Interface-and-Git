@@ -219,9 +219,19 @@ header .img {
 }
 .about-page .middle .topImgs {
     display: flex;
-    
+    border: 1px solid red;
 }
 .about-page .middle .bottomImgs {
     display: flex;
 }
-
+.about-page .middle .topImgs .strategy p {
+    margin: 0;
+}
+.about-page .middle .topImgs .how p {
+    margin: 0;
+}.about-page .middle .bottomImgs .places p {
+    margin: 0;
+}
+.about-page .middle .bottomImgs .collab p {
+    margin: 0;
+}
