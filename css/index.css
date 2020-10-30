@@ -180,22 +180,26 @@ footer nav a {
 header {
     display: flex;
     flex-flow: wrap;
-    margin: 0 auto;
+    margin: 2% auto;
     width: 100%;
 }
+
 header .img {
     width: 90%;
 }
+
 .topNav {
     display: flex;
     width: 80%;
     align-items: flex-end;
     justify-content: space-evenly;
 }
+
 .topNav a {
     color: black;
     text-decoration: none;
 }
+
 .bigImage {
     width: 100%; 
     background-image: url();
@@ -204,34 +208,112 @@ header .img {
 
 /* About Page Styles */
 /* Top Section Styles */
+
 .about-page .topSec {
     border-bottom: 1px dashed black;
 }
+
 .about-page .topSec h2,p {
    margin: 0 1% 2% 2%;
 }
+
 /* Middle Section (Gallery) */
+
 .about-page .middle {
     display: flex;
-    border: 1px solid rgb(21, 0, 128);
     margin: 0 0 2% 2%;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+
 .about-page .middle .topImgs {
     display: flex;
-    border: 1px solid red;
+    margin: 2% 0 0 0;
+    padding: 0 0 3% 0;
 }
+
 .about-page .middle .bottomImgs {
     display: flex;
+    margin: 3% 0 0 0;
+    padding: 0 0 3% 0;
 }
+
+/* Paragraphs under images */
+
 .about-page .middle .topImgs .strategy p {
-    margin: 0;
+    margin: 0 0 5% 0;
 }
+
 .about-page .middle .topImgs .how p {
-    margin: 0;
-}.about-page .middle .bottomImgs .places p {
-    margin: 0;
+    margin: 0 0 5% 0;
 }
+
+.about-page .middle .bottomImgs .places p {
+    margin: 0 0 5% 0;
+}
+
 .about-page .middle .bottomImgs .collab p {
-    margin: 0;
+    margin: 0 0 5% 0;
+}
+
+/* Images*/
+
+.about-page .middle .topImgs .strategy img {
+    height: 21vh
+}
+
+.about-page .middle .topImgs .how img {
+    height: 21vh
+}
+
+.about-page .middle .bottomImgs .places img {
+    height: 21vh
+}
+
+.about-page .middle .bottomImgs .collab img {
+    height: 21vh
+}
+
+/*Styles for h3 and a tags*/
+
+.about-page h3 {
+    margin: 2% 0 1% 0;
+}
+
+.about-page .middle a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1.5% 3% 1.5% 3%;
+    margin: 2% 0 0 0;
+}
+
+/* Image/ paragraph divs */
+
+.about-page .middle .topImgs .strategy {
+    border-bottom: 1px dashed black;
+    height: 37vh;
+}
+
+.about-page .middle .topImgs .how {
+    border-bottom: 1px dashed black;
+    height: 37vh;
+}
+
+.about-page .middle .bottomImgs .places {
+    border-bottom: 1px dashed black;
+    height: 37vh;
+}
+
+.about-page .middle .bottomImgs .collab {
+    border-bottom: 1px dashed black;
+    height: 37vh;
+}
+
+/* Footer Styles */
+
+.about-page .together {
+    margin: 0 0 0 2%;
+    padding: 0% 0 2% 0;
 }
