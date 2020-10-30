@@ -292,27 +292,47 @@ header .img {
 /* Image/ paragraph divs */
 
 .about-page .middle .topImgs .strategy {
-    border-bottom: 1px dashed black;
     height: 37vh;
 }
 
 .about-page .middle .topImgs .how {
-    border-bottom: 1px dashed black;
     height: 37vh;
 }
 
 .about-page .middle .bottomImgs .places {
-    border-bottom: 1px dashed black;
     height: 37vh;
 }
 
 .about-page .middle .bottomImgs .collab {
-    border-bottom: 1px dashed black;
     height: 37vh;
 }
 
-/* Footer Styles */
+.about-page .middle .topImgs .strategy div{
+    border-bottom: 1px dashed black;
+    margin: 0 8% 0 0;
+    padding: 0 0 10% 0;
+}
 
+.about-page .middle .topImgs .how div{
+    border-bottom: 1px dashed black;
+    margin: 0 8% 0 0;
+    padding: 0 0 10% 0;
+}
+
+.about-page .middle .bottomImgs .places div{
+    border-bottom: 1px dashed black;
+    margin: 0 8% 0 0;
+    padding: 0 0 10% 0;
+}
+
+.about-page .middle .bottomImgs .collab div{
+    border-bottom: 1px dashed black;
+    margin: 0 8% 0 0;
+    padding: 0 0 10% 0;
+}
+
+
+/* Footer Styles */
 .about-page .together {
     margin: 0 0 0 2%;
     padding: 0% 0 2% 0;
